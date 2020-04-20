@@ -40,7 +40,7 @@ speed = 5
 
 game_over = False
 while not game_over:
-    clock.tick(speed) #speed snake
+    clock.tick(speed) #speed 
     for event in pygame.event.get():
         if event.type == QUIT:
             pygame.quit()
